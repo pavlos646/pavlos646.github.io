@@ -1,1 +1,36 @@
-{ "Empty in order to not have any conflicts!" }
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:chrisae13.github.io",
+    "verificationMethod": [
+        {
+            "id": "did:web:chrisae13.github.io#Aq21UO6wVYaiUqrz1ryexqqok2U4cxFvI3n2y9uj3Ro",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:chrisae13.github.io",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "crv": "P-256",
+                "kid": "Aq21UO6wVYaiUqrz1ryexqqok2U4cxFvI3n2y9uj3Ro",
+                "x": "69D1bHFpsM6DPIegIkvdFG7TNm1OKwyuwskoVND58Vc",
+                "y": "4znhuoMpgOZrZjnm7YnYfkUpt3DVtfjU4qLRQMlz_uE"
+            }
+        }
+    ],
+    "assertionMethod": [
+        "did:web:chrisae13.github.io#Aq21UO6wVYaiUqrz1ryexqqok2U4cxFvI3n2y9uj3Ro"
+    ],
+    "authentication": [
+        "did:web:chrisae13.github.io#Aq21UO6wVYaiUqrz1ryexqqok2U4cxFvI3n2y9uj3Ro"
+    ],
+    "capabilityInvocation": [
+        "did:web:chrisae13.github.io#Aq21UO6wVYaiUqrz1ryexqqok2U4cxFvI3n2y9uj3Ro"
+    ],
+    "capabilityDelegation": [
+        "did:web:chrisae13.github.io#Aq21UO6wVYaiUqrz1ryexqqok2U4cxFvI3n2y9uj3Ro"
+    ],
+    "keyAgreement": [
+        "did:web:chrisae13.github.io#Aq21UO6wVYaiUqrz1ryexqqok2U4cxFvI3n2y9uj3Ro"
+    ]
+}
